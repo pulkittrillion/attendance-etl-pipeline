@@ -6,7 +6,7 @@
 
 
 
-\## Business Problem HELLO
+\## Business Problem HELLO hello
 
 Previously, attendance reporting was done manually in Excel, which was time-consuming and error-prone. This pipeline automates the entire process — from raw data to clean database — saving hours of manual work every month.
 
