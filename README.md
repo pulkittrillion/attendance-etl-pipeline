@@ -46,11 +46,19 @@ Previously, attendance reporting was done manually in Excel, which was time-cons
 
 └── README.md
 
+## Pipeline Architecture
+1. **Extract** → Read raw CSV data
+2. **Transform** → Clean data + calculate hours, overtime, compliance
+3. **Load** → Store in PostgreSQL database
 
+## How to Run
 
-\## Setup Instructions
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-(Will be updated after completion)
+# Run full pipeline
+python main.py
 
 
 
